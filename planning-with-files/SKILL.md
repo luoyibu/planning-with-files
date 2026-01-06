@@ -50,6 +50,18 @@ Edit task_plan.md  # Mark [x], update status
 **When storing information:**
 ```bash
 Write notes.md     # Don't stuff context, store in file
+Edit task_plan.md  # Add notes.md to Related Files if new, or update timestamp
+```
+
+**When creating new markdown files:**
+```bash
+Write new_file.md
+Edit task_plan.md  # Add to Related Files section immediately
+```
+
+**When answering key questions:**
+```bash
+Edit task_plan.md  # Update Key Questions & Answers section with answer
 ```
 
 ## task_plan.md Template
@@ -68,9 +80,31 @@ Create this file FIRST for any complex task:
 - [ ] Phase 3: Execute/build
 - [ ] Phase 4: Review and deliver
 
-## Key Questions
-1. [Question to answer]
-2. [Question to answer]
+## Key Questions & Answers
+
+1. **[Question Summary]**
+   - Status: ⏳ Pending / ✅ Answered / ❌ Dropped / 🔄 In Progress
+   - Answer: (To be answered or recorded)
+   - Evidence / Reference: (Link or citation)
+   - Last Updated: (Date)
+
+2. **[Question Summary]**
+   - Status: ⏳ Pending
+   - Answer: (To be answered)
+   - Evidence / Reference: (To be added)
+   - Last Updated: (To be added)
+
+## Related Files
+
+| File | Purpose | Last Updated | Status |
+|------|---------|--------------|--------|
+| notes.md | Research findings | (Pending) | Active |
+| [deliverable].md | Final output | (Pending) | (Pending) |
+
+**File Index Rules:**
+- Add new files immediately after creation
+- Update "Last Updated" when file is modified
+- Status: Active / Reference / Complete / Archived
 
 ## Decisions Made
 - [Decision]: [Rationale]
@@ -123,6 +157,19 @@ Large outputs go to files, not context. Keep only paths in working memory.
 
 ### 5. Log All Errors
 Every error goes in the "Errors Encountered" section. This builds knowledge for future tasks.
+
+### 6. Update Checkpoints
+After EVERY major action, check if task_plan.md needs updating:
+- [ ] Did I complete a phase? → Update checkbox
+- [ ] Did I answer a key question? → Update Key Questions & Answers section
+- [ ] Did I create a new file? → Add to Related Files section
+- [ ] Did I encounter an error? → Add to Errors Encountered section
+- [ ] Did I make a decision? → Add to Decisions Made section
+
+**Update Frequency:**
+- After each phase completion: MANDATORY
+- After every 5-10 tool calls: RECOMMENDED
+- Before any major decision: MANDATORY (read + update)
 
 ## When to Use This Pattern
 

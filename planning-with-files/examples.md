@@ -21,10 +21,24 @@ Create a research summary on the benefits of morning exercise.
 - [ ] Phase 3: Synthesize findings
 - [ ] Phase 4: Deliver summary
 
-## Key Questions
-1. What are the physical health benefits?
-2. What are the mental health benefits?
-3. What scientific studies support this?
+## Key Questions & Answers
+1. **What are the physical health benefits?**
+   - Status: ⏳ Pending
+   - Answer: (To be answered)
+   - Evidence / Reference: (To be added)
+   - Last Updated: (To be added)
+
+2. **What are the mental health benefits?**
+   - Status: ⏳ Pending
+   - Answer: (To be answered)
+   - Evidence / Reference: (To be added)
+   - Last Updated: (To be added)
+
+3. **What scientific studies support this?**
+   - Status: ⏳ Pending
+   - Answer: (To be answered)
+   - Evidence / Reference: (To be added)
+   - Last Updated: (To be added)
 
 ## Status
 **Currently in Phase 1** - Creating plan
@@ -72,10 +86,30 @@ Identify and fix the bug preventing successful login.
 - [ ] Phase 4: Implement fix
 - [ ] Phase 5: Test and verify
 
-## Key Questions
-1. What error message appears?
-2. Which file handles authentication?
-3. What changed recently?
+## Key Questions & Answers
+1. **What error message appears?**
+   - Status: ✅ Answered
+   - Answer: TypeError: Cannot read property 'token' of undefined.
+   - Evidence / Reference: See Errors Encountered section.
+   - Last Updated: 2024-01-20
+
+2. **Which file handles authentication?**
+   - Status: ✅ Answered
+   - Answer: src/auth/login.ts
+   - Evidence / Reference: File search confirmed location.
+   - Last Updated: 2024-01-20
+
+3. **What changed recently?**
+   - Status: 🔄 In Progress
+   - Answer: Investigating recent commits.
+   - Evidence / Reference: Git log pending.
+   - Last Updated: 2024-01-20
+
+## Related Files
+
+| File | Purpose | Last Updated | Status |
+|------|---------|--------------|--------|
+| notes.md | Debugging logs and findings | 2024-01-20 | Active |
 
 ## Decisions Made
 - Auth handler is in src/auth/login.ts
@@ -110,6 +144,13 @@ Add functional dark mode toggle to settings.
 - [ ] Phase 3: Implement toggle component (CURRENT)
 - [ ] Phase 4: Add theme switching logic
 - [ ] Phase 5: Test and polish
+
+## Related Files
+
+| File | Purpose | Last Updated | Status |
+|------|---------|--------------|--------|
+| notes.md | Theme system research | 2024-01-21 | Active |
+| dark_mode_implementation.md | Implementation details | 2024-01-21 | Pending |
 
 ## Decisions Made
 - Using CSS custom properties for theme

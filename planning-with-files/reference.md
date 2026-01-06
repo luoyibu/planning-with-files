@@ -84,7 +84,7 @@ Manus operates in a continuous loop:
 |-----------|-------------|
 | `write` | New files or complete rewrites |
 | `append` | Adding sections incrementally |
-| `edit` | Updating specific parts (checkboxes, status) |
+| `edit` | Updating specific parts (checkboxes, status, answers) |
 | `read` | Reviewing before decisions |
 
 ## Manus Statistics
